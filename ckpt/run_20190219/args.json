@@ -1,0 +1,16 @@
+{
+    "ckpt_path": "./ckpt/run_20190219/checkpoint.pth.tar",
+    "data_name": "cityscapes",
+    "enc": "101",
+    "enc_pretrained": true,
+    "evaluate": false,
+    "ignore_label": 255,
+    "num_stages": 3,
+    "num_workers": 16,
+    "optim_dec": "sgd",
+    "print_every": 10,
+    "random_seed": 42,
+    "snapshot_dir": "./ckpt/run_20190219",
+    "train_dir": "/disk1/aashishsharma/Datasets/CityScapes_Dataset/",
+    "val_dir": "/disk1/aashishsharma/Datasets/CityScapes_Dataset/"
+}
