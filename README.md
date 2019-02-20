@@ -12,7 +12,7 @@ Official code can be picked from the author's implementation available [here](ht
 # Changes w.r.t. to the official code
 I've modified the code to work on CityScapes dataset, and also visualize the predicted labels. Using the training configuration in ```src/config.py```, I could obtain the best valdiation score of 75.32% on this dataset. For near replication, you can either -
 1) Train the model yourself. Simply run ```source train.sh``` 
-2) Download the pre-trained checkpoint from [here](https://www.dropbox.com/s/e7jqd3r3frfvd1r/checkpoint.pth.tar?dl=0) and place it at ```ckpt/run_20190219/```. Then, simply run ```source test.sh```. It will generate the aforementioned score and also save the predicted labels at ```outputs/run_20190219/cityscapes/```. 
+2) Download the pre-trained checkpoint from [here](https://www.dropbox.com/s/e7jqd3r3frfvd1r/checkpoint.pth.tar?dl=0) and place it at ```ckpt/run_20190219/```. Then, simply run ```source test.sh```. It will produce the aforementioned score and also save the predicted labels at ```outputs/run_20190219/cityscapes/``` 
 
-Feel free to experiment with other training configurations, and kindly do let me know if you can achieve a better validation/test score :)
+Feel free to experiment with other training configurations, and if you can achieve a better validation/test score, please do inform me :)
 
