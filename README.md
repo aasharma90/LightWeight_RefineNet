@@ -1,6 +1,6 @@
 # Light-Weight RefineNet (in PyTorch) (Unofficial/Modified)
 
-This repository provides modified code for LightWeight-RefineNet from the paper `Light-Weight RefineNet for Real-Time Semantic Segmentation`, available [here](http://bmvc2018.org/contents/papers/0494.pdf)
+This repository provides unofficial/modified code for LightWeight-RefineNet from the paper `Light-Weight RefineNet for Real-Time Semantic Segmentation`, available [here](http://bmvc2018.org/contents/papers/0494.pdf)
 
 ```
 Light-Weight RefineNet for Real-Time Semantic Segmentation
