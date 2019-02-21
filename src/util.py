@@ -85,7 +85,7 @@ def get_palette_cityscapes():
     # Now, map the colors for the valid labels
     for label in cityscapes_labels:
         trainId = label.trainId
-        # valid trainIds are from 0-18 (see also dataset/datasets.py)
+        # valid trainIds are from 0-18
         if (trainId >=0 and trainId<=18): 
             for ch in range(0, 3):
                 palette[trainId * 3 + ch] = label.color[ch]
