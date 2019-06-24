@@ -9,7 +9,7 @@ In BMVC 2018
 ```
 Official code can be picked from the author's implementation available [here](https://github.com/DrSleep/light-weight-refinenet)
 
-# Changes w.r.t. to the official code
+# Changes w.r.t. the official code
 I've modified the code to work on CityScapes dataset, and also visualize the predicted labels. Using the training configuration in ```src/config.py```, I could obtain the best valdiation score of 75.28% on this dataset. For near replication, you can either -
 
 1) Train the model yourself. Simply run ```source train.sh``` 
