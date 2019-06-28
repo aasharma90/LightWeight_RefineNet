@@ -15,5 +15,5 @@ I've modified the code to work on CityScapes dataset, and also visualize the pre
 1) Train the model yourself. Simply run ```source train.sh``` 
 2) Download the pre-trained checkpoint from [here](https://www.dropbox.com/s/e7jqd3r3frfvd1r/checkpoint.pth.tar?dl=0) and place it at ```ckpt/run_20190219/```. Then, simply run ```source test.sh```. It will produce the aforementioned score and also save the predicted labels at ```outputs/run_20190219/cityscapes/``` 
 
-For either, ensure you've downloaded the dataset first (from [here](https://www.cityscapes-dataset.com/downloads/)) and modified the directory params accordingly (in ```src/config.py``` or ```src/test.py```). Feel free to experiment with other training configurations, and kindly inform me if you can achieve a better validation/test score.
+For either, ensure that you've downloaded the dataset first (from [here](https://www.cityscapes-dataset.com/downloads/)) and modified the directory params accordingly (in ```src/config.py``` or ```src/test.py``` depending upon whether your are training or testing). Feel free to experiment with other training configurations, and kindly inform me if you can achieve a better validation/test score.
 
